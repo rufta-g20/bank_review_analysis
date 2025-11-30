@@ -197,7 +197,8 @@ class ReviewPreprocessor:
             data_loss_pct = (total_removed / original_count) * 100
         print(f"Original Records (Raw Scrape): {original_count}")
         print(f"Duplicates Removed: {self.stats.get('duplicates_removed', 0)}")
-        print(f"Rows Removed (Missing Critical Data/Invalid Rating): {missing_count + self.stats.get('rows_removed_invalid_rating', 0)}")            print("-" * 60)
+        print(f"Rows Removed (Missing Critical Data/Invalid Rating): {missing_count + self.stats.get('rows_removed_invalid_rating', 0)}")            
+        print("-" * 60)
         print(f"Final Records (Cleaned): {final_count}")
         print(f"Total Data Loss from Original: {total_removed} ({data_loss_pct:.2f}%)")
         
