@@ -2,3 +2,6 @@ pandas
 google-play-scraper
 tqdm
 python-dotenv
+nltk
+notebook
+scikit-learn
