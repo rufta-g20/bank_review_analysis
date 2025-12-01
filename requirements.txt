@@ -5,3 +5,5 @@ python-dotenv
 nltk
 notebook
 scikit-learn
+matplotlib
+seaborn
