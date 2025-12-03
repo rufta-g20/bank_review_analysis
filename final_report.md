@@ -26,13 +26,13 @@ The following charts summarize the rating and sentiment distribution across the 
 ### 2.1. Rating Distribution (1-5 Stars)
 
 This chart shows how users distribute their scores. A high volume of 1-star ratings is a strong indicator of critical bugs and poor performance.
-
+![Rating Distribution](reports\visuals\02_rating_distribution_chart.png)
 
 
 ### 2.2. Sentiment Distribution
 
 This plot shows the volume of Positive, Negative, and Neutral reviews derived from the NLP analysis.
-
+![Sentiment Distribution](reports\02_sentiment_distribution.png)
 
 
 ---
@@ -41,7 +41,11 @@ This plot shows the volume of Positive, Negative, and Neutral reviews derived fr
 
 This section details the specific drivers (what users like) and pain points (what users complain about) for each institution, based on ratings and keyword frequency from their reviews.
 
-### 3.1. Dashen Bank (Highest Performer)
+### ​3.1. Deep Dive: Thematic Cluster Distribution (Task 2 Result)
+​This visualization displays the frequency of the automatically identified themes (e.g., 'Theme 1: Login / Access', 'Theme 2: Service / Branch'). This provides a strategic view of which business areas require the most attention.
+![Thematic Cluster Distribution](reports/04_thematic_clusters.png)
+
+### 3.2. Dashen Bank (Highest Performer)
 
 * Average Rating: 4.09
 * Drivers (What Works): *dashen, banking, super* (Indicates satisfaction with the overall brand experience and the "SuperApp" concept.)
@@ -52,7 +56,7 @@ Recommendations for Dashen Bank:
 1.  Performance: Investigate and resolve primary stability issues reported in low-rating reviews, focusing on general speed and resource consumption.
 2.  Feature Enhancement: Introduce user-requested features like multi-currency account views or integrated customer support chat.
 
-### 3.2. Commercial Bank of Ethiopia (CBE)
+### 3.3. Commercial Bank of Ethiopia (CBE)
 
 * Average Rating: 3.97
 * Drivers (What Works): *branch, payment, service* (Suggests the integration with physical branches and core payment services is appreciated.)
@@ -63,7 +67,7 @@ Recommendations for CBE:
 1.  Transaction Stability: Implement robust rollback mechanisms and provide real-time status updates for all fund transfers to prevent data loss confusion caused by "failed" transactions.
 2.  Feature Enhancement: Introduce user-requested features like multi-currency account views or integrated customer support chat.
 
-### 3.3. Bank of Abyssinia (BOA)
+### 3.4. Bank of Abyssinia (BOA)
 
 * Average Rating: 3.81
 * Drivers (What Works): *interface, easy, simple* (Users appreciate the usability and clean design of the application.)
@@ -74,10 +78,10 @@ Recommendations for BOA:
 1.  User Access: Streamline the login process with options for persistent biometric/PIN access to reduce server strain from repeated attempts and resolve frequent login issues.
 2.  Feature Enhancement: Introduce user-requested features like multi-currency account views or integrated customer support chat.
 
-### 3.4. Deep Dive: Top Pain Points
+### 3.5. Deep Dive: Top Pain Points
 
 This word cloud visualizes the most frequently mentioned keywords in the negative reviews for the lowest-rated bank, clearly identifying the most critical areas for immediate developer focus.
-
+![Word Cloud of the Top Pain Points](reports\03_negative_wordcloud.png)
 
 
 ---
